@@ -24,6 +24,8 @@ export default async function Home({searchParams} : HomeProps) {
       
 
       <div className="mt-12 padding-x padding-y max-width" id="discover">
+
+        <h3 className="text-red-600 text-xl font-bold mb-24 text-wrap">NOTE:   This Project used some free api's to get the images but unfortunately the api's service don't offer free services anymore thats why the car images don't show. otherwise the project is fully functional</h3>
         <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">
             Car Catalogue
